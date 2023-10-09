@@ -1,0 +1,30 @@
+.nav {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+.navigation__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navigation__list li {
+    margin: 0 10px;
+}
+
+.navigation__list a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation__list a:hover {
+    text-decoration: underline;
+}
