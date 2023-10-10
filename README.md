@@ -1,4 +1,8 @@
 # MB Rolety - website
+
+## Demo
+[Website project](https://mbigos86.github.io/homepage/).
+
 ## Website info
 
 - Roller blinds
@@ -15,5 +19,4 @@
 
 You change the type of roller blind if you click the button.
 
-## Demo
-[Website project](https://mbigos86.github.io/homepage/).
+
