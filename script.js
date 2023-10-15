@@ -1,4 +1,8 @@
-console.log("Hi");
+const welcome = () => {
+    console.log("Hi");
+}
+
+
 
 let picture = document.querySelector(".js-picture");
 let button = document.querySelector(".js-button");
@@ -9,7 +13,7 @@ button.addEventListener("click", () => {
         picture.src = "images/flat_p.jpg";
         themeName.innerText = "zaciemniająca";
     } else if (picture.src.endsWith("images/flat_p.jpg")) {
-        picture.src ="images/flat.jpg";
+        picture.src = "images/flat.jpg";
         themeName.innerText = "dzień / noc";
     }
 });
