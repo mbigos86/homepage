@@ -2,7 +2,7 @@ const welcome = () => {
     console.log("Hi");
 }
 
-
+welcome();
 
 let picture = document.querySelector(".js-picture");
 let button = document.querySelector(".js-button");
