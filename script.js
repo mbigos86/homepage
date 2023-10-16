@@ -4,6 +4,26 @@ const welcome = () => {
 
 welcome();
 
+const rollerPrize = () => {
+    
+    const high = document.querySelector(".high").innerText;
+const howMuch = document.querySelector(".howMuch");
+
+switch (true) {
+    case true === high < 1500:
+        howMuch.innerText = "200";
+        break;
+    case true === high < 2000:
+        howMuch.innerText = "300";
+        break;
+    case true === high > 2000:
+        howMuch.innerText = "500";
+        break;
+}
+}
+
+rollerPrize();
+
     const onChangeRollerClick = () => {
 
         const picture = document.querySelector(".js-picture");
