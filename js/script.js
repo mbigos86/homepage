@@ -1,13 +1,15 @@
+{
+
 const welcome = () => {
     console.log("Hi");
 }
 
 welcome();
 
-const rollerPrize = () => {
+const changeRollerPrice = () => {
 
-    const high = document.querySelector(".high").innerText;
-    const howMuch = document.querySelector(".howMuch");
+    const high = document.querySelector(".js-rollerHigh").innerText;
+    const howMuch = document.querySelector(".js-howMuch");
 
     switch (true) {
         case true === high < 1500:
@@ -22,7 +24,7 @@ const rollerPrize = () => {
     }
 };
 
-rollerPrize();
+changeRollerPrice();
 
 const onChangeRollerClick = () => {
 
@@ -45,3 +47,5 @@ const init = () => {
 };
 
 init();
+
+}
